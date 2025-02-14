@@ -1,7 +1,7 @@
 
 <a href='read_data.php'>All Records</a>
 <?php
-include("../day-3/connection.php"); 
+include("connection.php"); 
 $sql = "select * from student WHERE id=$_GET[id]";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_row($result);

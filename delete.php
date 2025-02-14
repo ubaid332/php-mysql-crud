@@ -1,5 +1,5 @@
 <?php
-include("../day-3/connection.php");
+include("connection.php");
 
 // sql to delete a record
 if(isset($_GET['id'])){

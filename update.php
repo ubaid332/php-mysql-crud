@@ -1,5 +1,5 @@
 <?php
-include("../day-3/connection.php"); 
+include("connection.php"); 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   print_r($_POST);
   $first_name = test_input($_POST["first_name"]);
